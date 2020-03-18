@@ -7,10 +7,37 @@
 ================================== */
 
 .header,
-.nav-links {
+.nav-link {
   display: flex;
+  align-items: center;
 }
 
 /* ===============================
   styles
 ================================== */
+/* container main  */
+.container {
+  margin: 24px 5%;
+}
+
+/* ----- navigation ----- */
+.header {
+  width: 100%
+}
+
+/* logo */
+.logo {
+  margin-right: 2%;
+}
+
+/* nav links */
+.nav-link a {
+  text-decoration: none;
+  list-style: none;
+  padding: 0 18px;
+}
+
+/* recources link */
+.link-r {
+  margin-right: auto;
+}
