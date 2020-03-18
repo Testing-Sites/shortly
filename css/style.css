@@ -2,13 +2,24 @@
   box-sizing: border-box;
 }
 
+button {
+  border-radius: 25px;
+  padding: 8px 16px;
+  background-color: var(--Cyan);
+  border-color: var(--Cyan);
+}
+
 /* ===============================
   flex
 ================================== */
-
+.intro,
 .header,
 .nav-link {
   display: flex;
+}
+
+.header,
+.nav-link {
   align-items: center;
 }
 
@@ -43,9 +54,18 @@
   margin-right: auto;
 }
 
-.sign-up-btn {
-  border-radius: 25px;
-  padding: 8px 16px;
-  background-color: var(--Cyan);
-  border-color: var(--Cyan);
+/* main intro */
+.intro {
+  width: 100%;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.container-text {
+  max-width: 500px;
+  margin-right: auto;
+}
+
+.container-img {
+  max-width: 60%;
 }
