@@ -26,18 +26,12 @@ button {
 /* ===============================
   styles
 ================================== */
+
 /* container main  */
 .container {
   margin: 24px 5%;
 }
 
-.main-1 {
-  background-color: white;
-}
-
-.main-2 {
-  background-color: ;
-}
 /* ----- navigation ----- */
 .header {
   width: 100%
