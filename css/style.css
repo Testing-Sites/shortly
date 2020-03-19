@@ -129,3 +129,18 @@ body {
   flex: 1;
   border-radius: 8px;
 }
+
+
+
+/* second main part of the web */
+
+/* main container  */
+.second-main {
+  display: flex;
+}
+
+.second-header-text {
+  text-align: center;
+  margin: auto;
+  width: 400px;
+}
