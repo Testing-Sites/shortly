@@ -9,6 +9,11 @@ button {
   border-color: var(--Cyan);
 }
 
+body {
+  padding: 0;
+  margin: 0;
+}
+
 /* ===============================
   flex
 ================================== */
@@ -29,7 +34,11 @@ button {
 
 /* container main  */
 .container {
-  margin: 24px 5%;
+  padding: 24px 5%;
+}
+
+.white-bg {
+  background-color: green
 }
 
 /* ----- navigation ----- */
