@@ -76,3 +76,33 @@ button {
 .container-img {
   max-width: 60%;
 }
+
+/* center input for form  */
+.form {
+  margin-top: 24px;
+}
+
+.input-form {
+  display: flex;
+  padding: 24px;
+  border-radius: 8px;
+  margin: auto;
+  background: url(../img/bg-shorten-desktop.svg) 0 0 / cover  var(--DarkViolet);
+}
+
+.input-for-shorten {
+  flex: 4;
+  border-radius: 8px;
+  padding-left: 8px;
+  border-color: transparent;
+  margin-right: 8px;
+  font-family: inherit;
+  font-size: 16px;
+  color: var(--Gray);
+
+}
+
+.form-btn {
+  flex: 1;
+  border-radius: 8px;
+}
