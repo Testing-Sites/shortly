@@ -136,11 +136,46 @@ body {
 
 /* main container  */
 .second-main {
-  display: flex;
+  /* display: flex; */
 }
 
 .second-header-text {
   text-align: center;
   margin: auto;
-  width: 400px;
+  width: 500px;
+}
+
+/* cards */
+.cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 48px
+}
+
+.card {
+  max-width: 300px;
+  padding: 16px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.icon {
+  position: relative;
+  top: -40px;
+
+  background-color: var(--DarkViolet);
+
+  background-image: url(../img/icon-brand-recognition.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30px 30px;
+
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+}
+
+.card-top-margin {
+  margin-top: -15px;
 }
