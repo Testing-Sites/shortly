@@ -24,3 +24,7 @@ button {
 h1 {
   color: var(--DarkViolet);
 }
+
+h2 {
+  color: var(--VeryDarkViolet);
+}
