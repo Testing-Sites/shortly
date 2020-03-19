@@ -37,9 +37,28 @@ body {
   padding: 24px 5%;
 }
 
+
+
+
+
+
+/* background-colors */
 .white-bg {
-  background-color: green
+  background-color: white;
 }
+
+.split-bg {
+  background-image: linear-gradient(white 50%, var(--Gray) 50%);
+}
+
+.grey-bg {
+  background-color: var(--Gray);
+}
+
+
+
+
+
 
 /* ----- navigation ----- */
 .header {
@@ -81,8 +100,9 @@ body {
 }
 
 /* center input for form  */
+
 .form {
-  margin-top: 24px;
+  /* margin-top: 24px; */
 }
 
 .input-form {
