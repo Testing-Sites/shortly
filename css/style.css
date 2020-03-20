@@ -37,11 +37,6 @@ body {
   padding: 24px 5%;
 }
 
-
-
-
-
-
 /* background-colors */
 .white-bg {
   background-color: white;
@@ -54,10 +49,6 @@ body {
 .grey-bg {
   background-color: var(--Gray);
 }
-
-
-
-
 
 
 /* ----- navigation ----- */
@@ -83,7 +74,7 @@ body {
   margin-right: auto;
 }
 
-/* main intro */
+/* ------- main intro ------- */
 .intro {
   width: 100%;
   align-items: center;
@@ -148,18 +139,21 @@ body {
 /* cards */
 .cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+
   width: 100%;
   margin-top: 48px;
   margin-bottom: 15%;
 }
 
 .card {
-  max-width: 450px;
   margin: 8px;
   padding: 16px;
   border-radius: 5px;
   background-color: white;
+
+  flex: 1 250px;
 }
 
 .card-2 {
@@ -214,4 +208,48 @@ body {
   color: white;
   margin-top: 0;
   margin-bottom: 8px;
+}
+
+
+@media (max-width: 780px) {
+  .intro {
+    flex-direction: column;
+  }
+  .container-text {
+    order: 2;
+    margin: auto;
+    text-align: center;
+    max-width: 400px;
+  }
+  .container-img {
+    order: 1;
+    margin: auto;
+    max-width: 90%;
+  }
+
+  /* --- input form --- */
+  .input-form {
+    flex-direction: column;
+  }
+
+  .input-for-shorten {
+    width: 100%;
+    line-height: 39.5px;
+    margin-bottom: 24px;
+  }
+
+  .form-btn {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 887px) {
+  /* cards */
+
+  .card-1,
+  .card-2,
+  .card-3 {
+    margin: 16px;
+  }
 }
