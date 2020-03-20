@@ -155,7 +155,7 @@ body {
 }
 
 .card {
-  max-width: 300px;
+  max-width: 450px;
   margin: 8px;
   padding: 16px;
   border-radius: 5px;
@@ -190,4 +190,28 @@ body {
 
 .card-top-margin {
   margin-top: -15px;
+}
+
+/* boost links today bottom container  */
+
+.get-started {
+  display: flex;
+  width: 100%;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: var(--DarkViolet);
+  background-image: url(../img/bg-boost-desktop.svg);
+  background-size: cover;
+
+}
+
+.get-started-container {
+  margin: auto;
+  text-align: center;
+}
+
+.boost-links-h2 {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
