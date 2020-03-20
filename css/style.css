@@ -29,7 +29,7 @@ body {
 }
 
 /* ===============================
-  styles
+  styles - background
 ================================== */
 
 /* container main  */
@@ -51,7 +51,19 @@ body {
 }
 
 
-/* ----- navigation ----- */
+/* ===============================
+  navigation
+================================== */
+.btn-toggle-nav {
+  background-image: url(../img/hamburger-menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  width: 35px;
+  height: 35px;
+}
+
 .header {
   width: 100%
 }
@@ -74,7 +86,9 @@ body {
   margin-right: auto;
 }
 
-/* ------- main intro ------- */
+/* ===============================
+  main Intro
+================================== */
 .intro {
   width: 100%;
   align-items: center;
@@ -90,7 +104,9 @@ body {
   max-width: 60%;
 }
 
-/* center input for form  */
+/* ===============================
+  Form
+================================== */
 
 .form {
   /* margin-top: 24px; */
@@ -123,7 +139,9 @@ body {
 
 
 
-/* second main part of the web */
+/* ===============================
+  Second part of web
+================================== */
 
 /* main container  */
 .second-main {
@@ -136,7 +154,9 @@ body {
   width: 500px;
 }
 
-/* cards */
+/* ===============================
+Cards
+================================== */
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -210,6 +230,9 @@ body {
   margin-bottom: 8px;
 }
 
+/* ===============================
+  Media Queries
+================================== */
 
 @media (max-width: 780px) {
   .intro {
