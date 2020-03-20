@@ -150,19 +150,31 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-top: 48px
+  margin-top: 48px;
+  margin-bottom: 15%;
 }
 
 .card {
   max-width: 300px;
+  margin: 8px;
   padding: 16px;
   border-radius: 5px;
   background-color: white;
 }
 
+.card-2 {
+  margin-top: 5%;
+  margin-bottom: -5%;
+}
+
+.card-3 {
+  margin-top: 10%;
+  margin-bottom: -10%;
+}
+
 .icon {
   position: relative;
-  top: -40px;
+  top: -42.5px;
 
   background-color: var(--DarkViolet);
 
